@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+body li:nth-child(even) {
+    background-color: red;
+}
+
+body li:nth-child(odd) {
+    background-color: green;
+}
